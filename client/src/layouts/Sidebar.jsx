@@ -1,14 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import {
-  AiOutlineMenu,
-  AiOutlineTwitter,
-  AiOutlineGithub,
-  AiOutlineInstagram,
-  AiOutlineClose,
-} from "react-icons/ai";
-
-import Cart from "../components/cart/Cart";
 import { images } from "../constants";
 import UserProfileButton from "../components/UserProfileButton";
 
