@@ -17,19 +17,19 @@ const SearchBox = () => {
 
   return (
     <form onSubmit={submitHandler} className="w-full">
-      <div className="form-control w-full">
+      <div className="w-full form-control">
         <div className="input-group">
           <input
             type="text"
             name="q"
             onChange={(e) => setKeyword(e.target.value)}
             placeholder="Search Products..."
-            className="input input-bordered flex-1"
+            className="flex-1 input input-bordered"
           />
           <button type="submit" className="btn btn-square">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
+              className="w-6 h-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
