@@ -5,8 +5,7 @@ import Sidebar from "./Sidebar";
 const Layout = ({ children }) => {
   return (
     <div className="flex flex-col lg:flex-row">
-      <Sidebar />
-      <div className="flex-1 flex flex-col lg:h-screen overflow-y-auto justify-between">
+      <div className="flex flex-col justify-between flex-1 overflow-y-auto lg:h-screen">
         <div>{children}</div>
         <Footer />
       </div>
