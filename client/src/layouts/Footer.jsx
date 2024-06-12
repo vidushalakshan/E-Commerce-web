@@ -4,13 +4,13 @@ import { IoIosArrowUp } from "react-icons/io";
 const Footer = () => {
   return (
     <footer className="bg-[#f2f2f2]">
-      <div className="container grid grid-cols-2 px-5 py-8 mx-auto md:px-14 lg:py-20 gap-y-6 lg:grid-cols-4 gap-x-5">
+      <div className="container flex items-center justify-center grid-cols-2 px-5 py-8 mx-auto md:px-14 lg:py-20 gap-y-6 lg:grid-cols-4 gap-x-5">
         <div>
-          <h4 className="mb-4 text-lg font-bold uppercase text-palette-chineseBlack">
+          <h4 className="flex items-center justify-center mb-4 text-lg font-bold uppercase text-palette-chineseBlack">
             Follow us
           </h4>
-          <div className="grid grid-cols-2 font-normal md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-x-3 gap-y-2 text-palette-graniteGray">
-            <a className="inline-block" href="/">
+          <div className="flex items-center justify-center grid-cols-2 font-normal md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-x-3 gap-y-2 text-palette-graniteGray">
+            <a className="inline-block " href="/">
               Facebook
             </a>
             <a className="inline-block" href="/">
